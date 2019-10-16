@@ -7,23 +7,6 @@ h1 {
   text-align: center;
 }
 
-/* .drop {
-  display: none;
-  padding:20px;
-  background-color: darkgray;
-}
-
-#products:hover>.drop {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-}
-
-.div a {
-  padding:20px;
-  flex-direction: column;
-} */
-
 body {
   margin: 0px;
   padding: 0px;
@@ -47,25 +30,8 @@ fieldset {
   width: 50%;
 }
 
-.star-rating {
-  direction: rtl;
-  display: inline-block;
-  padding: 20px
-}
-
-.star-rating input[type=radio] {
-  display: none
-}
-
-.star-rating label {
-  color: #bbb;
-  font-size: 18px;
-  padding: 0;
-  cursor: pointer;
-}
-
-.star-rating label:hover, .star-rating label:hover ~ label, .star-rating input[type=radio]:checked ~ label {
-  color: #f2b600
+.form ~ input {
+  
 }
 
 .dropbtn {
