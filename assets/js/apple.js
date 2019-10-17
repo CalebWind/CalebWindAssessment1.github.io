@@ -1,5 +1,5 @@
 window.onload = loadReviews = () => {
-  fetch("./assets/json/apple.json") //pull the apple json file
+  fetch("/assets/json/apple.json") //pull the apple json file
  
     .then(r => r.json()) //make the input a json
     .then(t => {
