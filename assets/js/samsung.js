@@ -1,5 +1,5 @@
 window.onload = loadReviews = () => {
-  fetch("assets/json/samsung.json")
+  fetch("/assets/json/samsung.json")
  
     .then(r => r.json())
     .then(t => {
