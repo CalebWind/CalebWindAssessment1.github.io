@@ -4,3 +4,4 @@ const alertUser = () => {
 };
 
 document.getElementById("submit").addEventListener("click", alertUser);
+
