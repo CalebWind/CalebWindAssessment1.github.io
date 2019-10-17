@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Home Page</title>
 
-  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
 </head>
 
 <body>
   <div id="row">
-    <h1><img src="/assets/img/logo.jpg" alt="Mobile Review Logo"/> Mobile Review Website </h1>
+    <h1><img src="assets/img/logo.jpg" alt="Mobile Review Logo" /> Mobile Review Website </h1>
 
     <nav>
       <a>Home Page</a>
@@ -70,7 +70,7 @@
       <input type="button" value="Add" class="submitText" />
     </form>
   </fieldset>
-  <p id="text-output"></p> not sure if this needs to be here so commented out-->
-  <script src="assets/js/index.js"></script>
+  <p id="text-output"></p> 
+  <script src="assets/js/index.js"></script> not sure if this needs to be here so commented out-->
 </body>
 </html>
